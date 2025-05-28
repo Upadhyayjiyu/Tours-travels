@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+header, footer {
+  background: #599dce;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #005fa3;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #467597;
+}
+
+form input,
+form textarea,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.review {
+  background: #eef;
+  padding: 20px;
+  border-left: 5px solid #3f596b;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+footer p {
+  margin: 5px 0;
+}
